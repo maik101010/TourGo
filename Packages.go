@@ -30,6 +30,14 @@ func split(sum int) (x, y, z int) {
 	return
 }
 
+func bucleFor(largoSuma int) int {
+	sum := 0
+	for i := 0; i < largoSuma; i++ {
+		sum += i
+	}
+	return sum
+}
+
 // Para usar la palabra reservada var, se debe tener la variable afuera de una función, si no se usa, entonces nos da error de sintaxis
 // var c, python, java bool
 var i, j int = 1, 2
@@ -49,5 +57,6 @@ func main() {
 	c, python, java := true, false, "no!"
 	// var c, python, java = true, false, "no!"
 	fmt.Println(i, j, k, c, python, java)
+	fmt.Println(bucleFor(5))
 	// fmt.Println(i, j, c, python, java)
 }
