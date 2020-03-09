@@ -5,13 +5,13 @@ import (
 	"math"
 )
 
-func bucleFor(largoSuma int) int {
-	sum := 0
-	for i := 0; i < largoSuma; i++ {
-		sum += i
-	}
-	return sum
-}
+// func bucleFor(largoSuma int) int {
+// 	sum := 0
+// 	for i := 0; i < largoSuma; i++ {
+// 		sum += i
+// 	}
+// 	return sum
+// }
 
 func bucleForDos() {
 	sum := 1

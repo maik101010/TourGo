@@ -42,7 +42,7 @@ func bucleFor(largoSuma int) int {
 // var c, python, java bool
 var i, j int = 1, 2
 
-func main() {
+func funcionPrincipal() {
 	fmt.Println("Mi número favorito es: ", rand.Intn(100))
 	fmt.Printf("Now you have %g problems.\n", math.Sqrt(7))
 	fmt.Println("Suma de dos numeros", add(2, 1))
